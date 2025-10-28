@@ -7,7 +7,7 @@ import { HeaderHeroStat } from "./HeaderHeroStat";
 export const HeaderHero = () => {
   return (
     <div className="mt-[100px] grid lg:grid-cols-[2fr_1fr] grid-cols-1 lg:text-start text-center">
-      <h1 className="font-black lg:text-[64px] text-[32px] lg:w-[90%] w-full lg:leading-[60px] leading-[30px]">
+      <h1 className="font-black lg:ml-10 lg:text-[74px] text-[32px] lg:w-[90%] w-full lg:leading-[60px] leading-[30px]">
         WE CREATE BEAUTIFUL <span className="text-(--yellow)">EFFICIENT</span>{" "}
         WORDPRESS WEBSITES.
       </h1>
@@ -26,7 +26,12 @@ export const HeaderHero = () => {
         </Link>
       </div>
 
-      <Image src={agency} alt="" className="lg:w-[80%] w-full mt-16" />
+      <Image
+        src={agency}
+        alt=""
+        className="lg:w-[80%] w-full mt-16"
+        loading="lazy"
+      />
 
       <div className="lg:flex lg:flex-col lg:justify-center grid grid-cols-3">
         {HeroStats.map((stat, i) => (
