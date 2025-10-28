@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Companies = () => {
   return (
-    <div className="mt-16 w-full relative overflow-hidden h-[500px]">
+    <section className="mt-16 w-full relative overflow-hidden h-[500px]">
       <div className="absolute w-full lg:h-[100px] h-[72px] bg-(--yellow) -rotate-3 mt-20 flex lg:gap-25 gap-5">
         {companies.map((company, index) => (
           <Image
@@ -20,6 +20,6 @@ export const Companies = () => {
           <Image src={company} key={index} alt="" className="-rotate-3" />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
