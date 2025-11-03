@@ -1,13 +1,13 @@
 import { navBarItems } from "@/data/config";
 import Link from "next/link";
 
-interface NavbarList {
-  clasName: string;
+interface NavbarListProps {
+  className: string;
 }
 
-export const NavbarList = ({ clasName }: NavbarList) => {
+export const NavbarList = ({ className }: NavbarListProps) => {
   return (
-    <ul className={clasName}>
+    <ul className={className}>
       {navBarItems.map((item, index) => (
         <li key={index}>
           <Link

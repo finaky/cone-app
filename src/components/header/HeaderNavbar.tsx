@@ -14,7 +14,7 @@ export const HeaderNavbar = () => {
       <div className="mx-2 flex items-center">
         <Image src={logo} width={150} height={37} alt="" />
 
-        <NavbarList clasName="lg:flex hidden ml-[60px] items-center gap-3" />
+        <NavbarList className="lg:flex hidden ml-[60px] items-center gap-3 opacity-100" />
 
         <Link
           href={"/"}
@@ -24,7 +24,7 @@ export const HeaderNavbar = () => {
         </Link>
       </div>
 
-      {isMenuOpened && <MobileMenu />}
+      <MobileMenu isMenuOpened={isMenuOpened} />
 
       <HamburgerMenu
         isMenuOpened={isMenuOpened}
