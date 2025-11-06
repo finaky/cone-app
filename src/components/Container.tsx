@@ -1,5 +1,6 @@
 import { Companies } from "./companies/Companies";
 import { Header } from "./header/Header";
+import { RecentProjects } from "./recent-projects/RecentProjects";
 import { WhatWeProvide } from "./what-we-provide/WhatWeProvide";
 
 export const Container = () => {
@@ -8,6 +9,7 @@ export const Container = () => {
       <Header />
       <Companies />
       <WhatWeProvide />
+      <RecentProjects />
     </div>
   );
 };

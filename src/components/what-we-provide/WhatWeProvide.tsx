@@ -4,9 +4,9 @@ import { WhatWeProvideCard } from "./WhatWeProvideCard";
 
 export const WhatWeProvide = () => {
   return (
-    <section className="max-w-[1240px] mx-auto flex flex-col justify-center text-center">
+    <section className="max-w-[1400px] mx-auto flex flex-col justify-center text-center">
       <p className="flex justify-center items-center w-[159px] h-[38px] rounded-full bg-(--yellow)/10 text-(--yellow) text-[18px] leading-4 mx-auto">
-        <Sparkle />
+        <Sparkle className="mr-2" />
         Our Services
       </p>
 

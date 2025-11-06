@@ -1,7 +1,9 @@
+import { ReactElement } from "react";
+
 interface IWhatWeProvideCard {
   title: string;
   description: string;
-  icon: string;
+  icon: ReactElement;
   color: string;
 }
 
