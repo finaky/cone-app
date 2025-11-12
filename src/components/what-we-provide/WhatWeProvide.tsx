@@ -5,9 +5,9 @@ import { FeaturedTitle } from "../ui/FeaturedTitle";
 
 export const WhatWeProvide = () => {
   return (
-    <section className="max-w-[1400px] mx-auto flex flex-col justify-center text-center">
-      <FeaturedTag text="Our Services" />
-      <header>
+    <section className="max-w-[1400px] mx-auto  text-center">
+      <header className="flex flex-col justify-center">
+        <FeaturedTag text="Our Services" />
         <FeaturedTitle whiteText="WHAT DO WE" yellowText="PROVIDE" end="?" />
       </header>
 
