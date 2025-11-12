@@ -1,0 +1,81 @@
+export const trustUs = [
+  {
+    id: 1,
+    name: "Jitter",
+    category: "Design & Animacja",
+    betterBg: false,
+  },
+  {
+    id: 2,
+    name: "Krisp",
+    category: "AI & Narzędzia",
+    betterBg: false,
+  },
+  {
+    id: 3,
+    name: "Feedly",
+    category: "Agregacja Treści",
+    betterBg: false,
+  },
+  {
+    id: 4,
+    name: "Draftbit",
+    category: "Programowanie No-Code",
+    betterBg: false,
+  },
+  {
+    id: 5,
+    name: "HelloSign",
+    category: "Podpisy Elektroniczne",
+    betterBg: true,
+  },
+  {
+    id: 6,
+    name: "Grammarly",
+    category: "Wsparcie Pisania",
+    betterBg: false,
+  },
+  {
+    id: 7,
+    name: "Square",
+    category: "Finanse & Płatności",
+    betterBg: false,
+  },
+  {
+    id: 8,
+    name: "People.ai",
+    category: "AI dla Sprzedaży",
+    betterBg: false,
+  },
+  {
+    id: 9,
+    name: "LiveChat",
+    category: "Obsługa Klienta",
+    betterBg: true,
+  },
+  {
+    id: 10,
+    name: "Sketch",
+    category: "Design UI/UX",
+    betterBg: false,
+  },
+  {
+    id: 11,
+    name: "Mapbox",
+    category: "Mapy & Geolokalizacja",
+    betterBg: false,
+  },
+  {
+    id: 12,
+    name: "MetaMask",
+    category: "Web3 & Krypto",
+    logoUrl: "/assets/logos/metamask.svg",
+    betterBg: false,
+  },
+  {
+    id: 13,
+    name: "Pendo",
+    category: "Analityka Produktu",
+    betterBg: false,
+  },
+];

@@ -1,6 +1,8 @@
 import { Companies } from "./companies/Companies";
+import { CreativeProcess } from "./creative-process/CreativeProcess";
 import { Header } from "./header/Header";
 import { RecentProjects } from "./recent-projects/RecentProjects";
+import { TrustUs } from "./trust-us/TrustUs";
 import { WhatWeProvide } from "./what-we-provide/WhatWeProvide";
 
 export const Container = () => {
@@ -10,6 +12,8 @@ export const Container = () => {
       <Companies />
       <WhatWeProvide />
       <RecentProjects />
+      <TrustUs />
+      <CreativeProcess />
     </div>
   );
 };
