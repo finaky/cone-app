@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "@/assets/styles/globals.css";
+import { Footer } from "@/components/footer/Footer";
 
 const CabinetGrotesk = localFont({
   src: [
@@ -44,6 +45,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${CabinetGrotesk.className} antialiased`}>
         {children}
+        <Footer />
       </body>
     </html>
   );
