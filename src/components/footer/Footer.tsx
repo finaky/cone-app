@@ -23,7 +23,7 @@ export const Footer = () => {
           </nav>
 
           <nav>
-            <ul className="grid xl:grid-cols-6 xl:w-[50%] relative xl:left-[76%] ml-20 -translate-x-1/2 xl:gap-5 gap-1 grid-cols-2 ">
+            <ul className="grid xl:grid-cols-6 xl:w-[50%] relative xl:left-[76%] max-xl:ml-20 -translate-x-1/2 xl:gap-5 gap-1 grid-cols-2 ">
               {socialsLinks.map((link, index) => (
                 <li className="w-6" key={index}>
                   <Link href={link.href}>{link.icon}</Link>
