@@ -1,8 +1,8 @@
 import { trustUs } from "@/data/trustUs";
-import { FeaturedTag } from "../ui/FeaturedTag";
-import { FeaturedTitle } from "../ui/FeaturedTitle";
 import { BrandCard } from "./BrandCard";
-import { Section } from "../Section";
+import { Section } from "@/components/Section";
+import { FeaturedTag } from "@/components/pages/home/ui/FeaturedTag";
+import { FeaturedTitle } from "@/components/pages/home/ui/FeaturedTitle";
 
 export const TrustUs = () => {
   return (

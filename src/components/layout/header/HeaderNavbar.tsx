@@ -18,7 +18,7 @@ export const HeaderNavbar = () => {
 
         <Link
           href={"/"}
-          className="lg:flex hidden items-center justify-center w-[149px] h-14 bg-(--yellow) text-background font-extrabold rounded-md absolute right-6"
+          className="lg:flex hidden items-center justify-center w-[149px] h-14 bg-(--yellow) text-(--black) text-background font-extrabold rounded-md absolute right-6"
         >
           Contact Us
         </Link>

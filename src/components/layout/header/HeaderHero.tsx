@@ -3,7 +3,7 @@ import Link from "next/link";
 import agency from "@/assets/images/agency.png";
 import { HeroStats } from "@/data/config";
 import { HeaderHeroStat } from "./HeaderHeroStat";
-import { Section } from "../Section";
+import { Section } from "../../Section";
 
 export const HeaderHero = () => {
   return (
@@ -21,7 +21,7 @@ export const HeaderHero = () => {
 
         <Link
           href={"/"}
-          className="bg-(--yellow) w-[149px] h-14 flex justify-center items-center text-background font-extrabold text-[16px] rounded-lg mt-5"
+          className="bg-(--yellow) text-(--black) w-[149px] h-14 flex justify-center items-center text-background font-extrabold text-[16px] rounded-lg mt-5"
         >
           Get Started
         </Link>

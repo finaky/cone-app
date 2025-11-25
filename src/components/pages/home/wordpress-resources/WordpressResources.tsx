@@ -1,10 +1,10 @@
 "use client";
 import { wordpressTabList } from "@/data/wordpressResources";
-import { FeaturedTitle } from "../ui/FeaturedTitle";
 import { useState } from "react";
 import { ResourceArticle } from "./ResourcesArticle";
 import { ResourcesTablist } from "./ResourcesTablist";
-import { Section } from "../Section";
+import { Section } from "@/components/Section";
+import { FeaturedTitle } from "../ui/FeaturedTitle";
 
 export const WordpressResources = () => {
   const [activeTab, setActiveTab] = useState<number>(0);

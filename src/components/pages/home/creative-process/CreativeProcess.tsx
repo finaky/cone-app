@@ -3,7 +3,7 @@ import { FeaturedTitle } from "../ui/FeaturedTitle";
 import creativeProcessImg from "@/assets/images/creative-process-bg.png";
 import { creativeProcess } from "@/data/creativeProcess";
 import { CreativeProcessArticle } from "./CreativeProcessArticle";
-import { Section } from "../Section";
+import { Section } from "@/components/Section";
 
 export const CreativeProcess = () => {
   return (

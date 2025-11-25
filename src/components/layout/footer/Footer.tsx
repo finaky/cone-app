@@ -4,7 +4,7 @@ import logo_white from "@/assets/images/logo_white.svg";
 import Link from "next/link";
 import { footerLinks, footerText, socialsLinks } from "@/data/footer";
 import { motion } from "framer-motion";
-import { AnimatedText } from "../ui/AnimatedText";
+import { AnimatedText } from "../../pages/home/ui/AnimatedText";
 
 export const Footer = () => {
   return (
@@ -47,7 +47,7 @@ export const Footer = () => {
                   initial={{ opacity: 0, scale: 0.8 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   transition={{
-                    delay: index * 0.5,
+                    delay: index * 0.1,
                     type: "spring",
                     stiffness: 200,
                   }}
@@ -72,7 +72,7 @@ export const Footer = () => {
         <AnimatedText
           text={footerText}
           className="ml-12 text-xl"
-          staggerChildren={0.05}
+          staggerChildren={0.02}
         />
       </div>
     </footer>

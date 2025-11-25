@@ -4,7 +4,7 @@ import { FeaturedTag } from "../ui/FeaturedTag";
 import { FeaturedTitle } from "../ui/FeaturedTitle";
 import testimonials_img from "@/assets/images/testimonials.png";
 import { TestimonialArticle } from "./TestimonialArticle";
-import { Section } from "../Section";
+import { Section } from "@/components/Section";
 
 export const Testimonials = () => {
   return (
