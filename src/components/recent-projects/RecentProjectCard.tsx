@@ -19,7 +19,11 @@ export const RecentProjectCard = ({
     <div className="w-[400px] h-[300px] relative -top-50 bg-background rounded-3xl text-white">
       {inverted && <Image src={image} className="rounded-t-3xl" alt="" />}
 
-      <div className="rounded-3xl h-[200px]">
+      <div
+        className={`h-[200px] bg-[#1D1D1D] ${
+          +inverted ? "rounded-b-3xl" : "rounded-t-3xl"
+        }`}
+      >
         <div className="flex items-center relative top-10 ml-5">
           <div className="w-28 h-0.5 bg-white"></div>
           <p className="text-2xl font-extrabold leading-[30px] ml-6">{title}</p>
