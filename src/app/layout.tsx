@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./../assets/styles/globals.css";
 import { Footer } from "@/components/footer/Footer";
-import "";
 
 const CabinetGrotesk = localFont({
   src: [
