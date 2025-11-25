@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
-import { FeaturedTag } from "../ui/FeaturedTag";
-import { FeaturedTitle } from "../ui/FeaturedTitle";
+import { FeaturedTag } from "../../../ui/FeaturedTag";
+import { FeaturedTitle } from "../../../ui/FeaturedTitle";
 import testimonials_img from "@/assets/images/testimonials.png";
 import { TestimonialArticle } from "./TestimonialArticle";
 import { Section } from "@/components/Section";

@@ -1,7 +1,7 @@
 import { whatWeProvideCards } from "@/data/whatWeProvide";
 import { WhatWeProvideCard } from "./WhatWeProvideCard";
-import { FeaturedTag } from "@/components/pages/home/ui/FeaturedTag";
-import { FeaturedTitle } from "@/components/pages/home/ui/FeaturedTitle";
+import { FeaturedTag } from "@/components/ui/FeaturedTag";
+import { FeaturedTitle } from "@/components/ui/FeaturedTitle";
 import { Section } from "../../../Section";
 
 export const WhatWeProvide = () => {

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FeaturedTitle } from "../ui/FeaturedTitle";
+import { FeaturedTitle } from "../../../ui/FeaturedTitle";
 import creativeProcessImg from "@/assets/images/creative-process-bg.png";
 import { creativeProcess } from "@/data/creativeProcess";
 import { CreativeProcessArticle } from "./CreativeProcessArticle";

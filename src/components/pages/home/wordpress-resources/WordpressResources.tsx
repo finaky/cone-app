@@ -4,7 +4,7 @@ import { useState } from "react";
 import { ResourceArticle } from "./ResourcesArticle";
 import { ResourcesTablist } from "./ResourcesTablist";
 import { Section } from "@/components/Section";
-import { FeaturedTitle } from "../ui/FeaturedTitle";
+import { FeaturedTitle } from "../../../ui/FeaturedTitle";
 
 export const WordpressResources = () => {
   const [activeTab, setActiveTab] = useState<number>(0);
