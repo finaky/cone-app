@@ -6,22 +6,22 @@ import { Footer } from "@/components/footer/Footer";
 const CabinetGrotesk = localFont({
   src: [
     {
-      path: "/fonts/CabinetGrotesk-Black.otf",
+      path: "./../assets/fonts/CabinetGrotesk-Black.otf",
       weight: "900",
       style: "normal",
     },
     {
-      path: "/fonts/CabinetGrotesk-Bold.otf",
+      path: "./../assets/fonts/CabinetGrotesk-Bold.otf",
       weight: "700",
       style: "normal",
     },
     {
-      path: "/fonts/CabinetGrotesk-ExtraBold.otf",
+      path: "./../assets/fonts/CabinetGrotesk-ExtraBold.otf",
       weight: "800",
       style: "normal",
     },
     {
-      path: "/fonts/CabinetGrotesk-Medium.otf",
+      path: "./../assets/fonts/CabinetGrotesk-Medium.otf",
       weight: "500",
       style: "normal",
     },
