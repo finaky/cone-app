@@ -35,30 +35,36 @@ export const socialsLinks = [
   {
     icon: <Facebook />,
     href: "https://facebook.com",
+    name: "Facebook",
   },
 
   {
     icon: <Twitter />,
     href: "https://facebook.com",
+    name: "Twitter",
   },
 
   {
     icon: <Instagram />,
     href: "https://facebook.com",
+    name: "Instagram",
   },
 
   {
     icon: <Linkedin />,
     href: "https://facebook.com",
+    name: "Linkedin",
   },
 
   {
     icon: <Youtube />,
     href: "https://facebook.com",
+    name: "youtube",
   },
 
   {
     icon: <Dribbble />,
     href: "https://facebook.com",
+    name: "Dribble",
   },
 ];
