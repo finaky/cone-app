@@ -1,11 +1,11 @@
-import { Companies } from "./pages/home/companies/Companies";
+import { Companies } from "./pages/home/Companies/Companies";
 import { Header } from "./layout/header/Header";
-import { WhatWeProvide } from "./pages/home/what-we-provide/WhatWeProvide";
-import { RecentProjects } from "./pages/home/recent-projects/RecentProjects";
-import { TrustUs } from "./pages/home/trust-us/TrustUs";
-import { CreativeProcess } from "./pages/home/creative-process/CreativeProcess";
-import { WordpressResources } from "./pages/home/wordpress-resources/WordpressResources";
-import { Testimonials } from "./pages/home/testimonials/Testimonials";
+import { WhatWeProvide } from "./pages/home/WhatWeProvide/WhatWeProvide";
+import { RecentProjects } from "./pages/home/RecentProjects/RecentProjects";
+import { TrustUs } from "./pages/home/TrustUs/TrustUs";
+import { CreativeProcess } from "./pages/home/CreativeProcess/CreativeProcess";
+import { WordpressResources } from "./pages/home/WordpressResources/WordpressResources";
+import { Testimonials } from "./pages/home/Testimonials/Testimonials";
 
 export const Container = () => {
   return (
