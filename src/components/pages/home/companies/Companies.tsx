@@ -17,7 +17,19 @@ export const Companies = () => {
 
       <div className="absolute w-full lg:h-[100px] h-[72px] backdrop-blur-2xl rotate-3 mt-20 flex lg:gap-25 gap-10">
         {companies.map((company, index) => (
-          <Image src={company} key={index} alt="" className="-rotate-3" />
+          <Image
+            src={company}
+            key={index}
+            alt=""
+            className="-rotate-3"
+            loading="lazy"
+            style={{
+              width: "10%",
+              height: "auto",
+            }}
+            width={100}
+            height={70}
+          />
         ))}
       </div>
     </section>

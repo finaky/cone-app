@@ -14,7 +14,7 @@ export const ResourceArticle = ({
 }: IResourceArticle) => {
   return (
     <article className="w-[295px] h-[318px] bg-white rounded-3xl mt-6">
-      <Image src={image} alt={`${title} image`} />
+      <Image loading="lazy" src={image} alt={`${title} image`} />
 
       <div className="grid grid-cols-[3fr_1fr] items-center h-19">
         <div className="mx-5">

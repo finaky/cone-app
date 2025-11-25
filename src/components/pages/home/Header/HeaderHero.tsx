@@ -3,7 +3,7 @@ import Link from "next/link";
 import agency from "@/assets/images/agency.png";
 import { HeroStats } from "@/data/config";
 import { HeaderHeroStat } from "./HeaderHeroStat";
-import { Section } from "../../Section";
+import { Section } from "@/components/Section";
 
 export const HeaderHero = () => {
   return (

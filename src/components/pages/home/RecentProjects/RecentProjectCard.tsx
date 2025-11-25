@@ -17,7 +17,9 @@ export const RecentProjectCard = ({
 }: IRecentProjectCard) => {
   return (
     <div className="w-[400px] h-[300px] relative -top-50 bg-background rounded-3xl text-white">
-      {inverted && <Image src={image} className="rounded-t-3xl" alt="" />}
+      {inverted && (
+        <Image loading="lazy" src={image} className="rounded-t-3xl" alt="" />
+      )}
 
       <div
         className={`h-[200px] bg-[#1D1D1D] ${

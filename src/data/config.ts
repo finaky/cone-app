@@ -10,11 +10,11 @@ import company9 from "@/assets/images/companies/9.svg";
 
 export const navBarItems = [
   { name: "Home", href: "/", active: true },
-  { name: "Plugins", href: "/", active: false },
-  { name: "Themes", href: "/", active: false },
-  { name: "Templates", href: "/", active: false },
-  { name: "Blog", href: "/", active: false },
-  { name: "Support", href: "/", active: false },
+  { name: "Services", href: "/services", active: false },
+  { name: "Themes", href: "/themes", active: false },
+  { name: "Templates", href: "/templates", active: false },
+  { name: "Blog", href: "/blog", active: false },
+  { name: "Support", href: "/support", active: false },
 ];
 
 export const HeroStats = [
