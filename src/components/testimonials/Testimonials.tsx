@@ -4,10 +4,11 @@ import { FeaturedTag } from "../ui/FeaturedTag";
 import { FeaturedTitle } from "../ui/FeaturedTitle";
 import testimonials_img from "@/assets/images/testimonials.png";
 import { TestimonialArticle } from "./TestimonialArticle";
+import { Section } from "../Section";
 
 export const Testimonials = () => {
   return (
-    <section className="mx-auto mt-12">
+    <Section className="mx-auto mt-12">
       <header className="flex flex-col justify-center text-center">
         <FeaturedTag text="Testimonials" />
         <FeaturedTitle whiteText="WHAT OUR CLIENTS " yellowText="SAY" end="?" />
@@ -20,6 +21,6 @@ export const Testimonials = () => {
 
         <TestimonialArticle />
       </div>
-    </section>
+    </Section>
   );
 };

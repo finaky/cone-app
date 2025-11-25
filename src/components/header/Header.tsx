@@ -4,7 +4,6 @@ export const Header = () => {
   return (
     <header>
       <HeaderNavbar />
-
       <HeaderHero />
     </header>
   );

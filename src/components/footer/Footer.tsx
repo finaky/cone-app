@@ -4,7 +4,7 @@ import logo_white from "@/assets/images/logo_white.svg";
 import Link from "next/link";
 import { footerLinks, footerText, socialsLinks } from "@/data/footer";
 import { motion } from "framer-motion";
-import { AnimatedText } from "../AnimatedText";
+import { AnimatedText } from "../ui/AnimatedText";
 
 export const Footer = () => {
   return (

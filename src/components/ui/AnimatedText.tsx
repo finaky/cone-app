@@ -1,3 +1,4 @@
+"use client";
 import { motion } from "framer-motion";
 
 interface IAnimatedText {
@@ -19,7 +20,7 @@ export const AnimatedText = ({
   };
 
   return (
-    <motion.small
+    <motion.div
       className={className}
       initial="hidden"
       animate="visible"
@@ -34,6 +35,6 @@ export const AnimatedText = ({
           {letter === " " ? "\u00A0" : letter}
         </motion.span>
       ))}
-    </motion.small>
+    </motion.div>
   );
 };

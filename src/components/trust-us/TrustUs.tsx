@@ -2,10 +2,11 @@ import { trustUs } from "@/data/trustUs";
 import { FeaturedTag } from "../ui/FeaturedTag";
 import { FeaturedTitle } from "../ui/FeaturedTitle";
 import { BrandCard } from "./BrandCard";
+import { Section } from "../Section";
 
 export const TrustUs = () => {
   return (
-    <section className="max-w-[1400px] mx-auto flex flex-col justify-center text-center mt-16">
+    <Section className="max-w-[1400px] mx-auto flex flex-col justify-center text-center mt-16">
       <FeaturedTag text="Award Winning WordPress Agency" />
       <header>
         <FeaturedTitle whiteText="THEY TRUST " yellowText="US" />
@@ -16,6 +17,6 @@ export const TrustUs = () => {
           <BrandCard key={item.id} {...item} />
         ))}
       </div>
-    </section>
+    </Section>
   );
 };

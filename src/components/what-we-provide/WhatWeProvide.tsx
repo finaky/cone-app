@@ -2,10 +2,11 @@ import { whatWeProvideCards } from "@/data/whatWeProvide";
 import { WhatWeProvideCard } from "./WhatWeProvideCard";
 import { FeaturedTag } from "../ui/FeaturedTag";
 import { FeaturedTitle } from "../ui/FeaturedTitle";
+import { Section } from "../Section";
 
 export const WhatWeProvide = () => {
   return (
-    <section className="max-w-[1400px] mx-auto  text-center">
+    <Section className="max-w-[1400px] mx-auto  text-center">
       <header className="flex flex-col justify-center">
         <FeaturedTag text="Our Services" />
         <FeaturedTitle whiteText="WHAT DO WE" yellowText="PROVIDE" end="?" />
@@ -16,6 +17,6 @@ export const WhatWeProvide = () => {
           <WhatWeProvideCard key={i} {...card} />
         ))}
       </div>
-    </section>
+    </Section>
   );
 };

@@ -4,12 +4,13 @@ import { FeaturedTitle } from "../ui/FeaturedTitle";
 import { useState } from "react";
 import { ResourceArticle } from "./ResourcesArticle";
 import { ResourcesTablist } from "./ResourcesTablist";
+import { Section } from "../Section";
 
 export const WordpressResources = () => {
   const [activeTab, setActiveTab] = useState<number>(0);
 
   return (
-    <section className="mt-12 xl:mx-20">
+    <Section className="mt-12 xl:mx-20">
       <header className="max-lg:text-center">
         <FeaturedTitle whiteText="WORDPRESS" yellowText="RESOURCES" />
       </header>
@@ -35,6 +36,6 @@ export const WordpressResources = () => {
           <ResourceArticle key={index} {...props} />
         ))}
       </div>
-    </section>
+    </Section>
   );
 };

@@ -3,10 +3,11 @@ import Link from "next/link";
 import agency from "@/assets/images/agency.png";
 import { HeroStats } from "@/data/config";
 import { HeaderHeroStat } from "./HeaderHeroStat";
+import { Section } from "../Section";
 
 export const HeaderHero = () => {
   return (
-    <div className="mt-[100px] grid lg:grid-cols-[2fr_1fr] grid-cols-1 lg:text-start text-center">
+    <Section className="mt-[100px] grid lg:grid-cols-[2fr_1fr] grid-cols-1 lg:text-start text-center">
       <h1 className="font-black lg:ml-10 lg:text-[74px] text-[32px] lg:w-[90%] w-full lg:leading-[60px] leading-[30px]">
         WE CREATE BEAUTIFUL <span className="text-(--yellow)">EFFICIENT</span>{" "}
         WORDPRESS WEBSITES.
@@ -38,6 +39,6 @@ export const HeaderHero = () => {
           <HeaderHeroStat key={i} {...stat} />
         ))}
       </div>
-    </div>
+    </Section>
   );
 };

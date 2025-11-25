@@ -3,10 +3,11 @@ import { FeaturedTitle } from "../ui/FeaturedTitle";
 import creativeProcessImg from "@/assets/images/creative-process-bg.png";
 import { creativeProcess } from "@/data/creativeProcess";
 import { CreativeProcessArticle } from "./CreativeProcessArticle";
+import { Section } from "../Section";
 
 export const CreativeProcess = () => {
   return (
-    <section className="grid xl:grid-cols-2 grid-cols-1 mt-12">
+    <Section className="grid xl:grid-cols-2 grid-cols-1 mt-12">
       <div className="mx-auto max-xl:text-center">
         <header>
           <FeaturedTitle
@@ -28,6 +29,6 @@ export const CreativeProcess = () => {
         alt="Creative process illustration"
         className="xl:ml-auto mx-auto max-xl:mt-12"
       />
-    </section>
+    </Section>
   );
 };
