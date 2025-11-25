@@ -10,7 +10,7 @@ import { NavbarList } from "./NavbarList";
 export const Navbar = () => {
   const [isMenuOpened, setIsMenuOpened] = useState<boolean>(false);
   return (
-    <nav className="flex items-center relative left-1/2 -translate-x-1/2 mt-6 max-w-[1600px]">
+    <nav className="flex items-center relative left-1/2 -translate-x-1/2 mt-6 max-w-[1600px] pb-6 z-40">
       <div className="mx-2 flex items-center">
         <Image loading="eager" src={logo} width={150} height={37} alt="" />
 
@@ -24,7 +24,10 @@ export const Navbar = () => {
         </Link>
       </div>
 
-      <MobileMenu isMenuOpened={isMenuOpened} />
+      <MobileMenu
+        isMenuOpened={isMenuOpened}
+        setIsMenuOpened={setIsMenuOpened}
+      />
 
       <HamburgerMenu
         isMenuOpened={isMenuOpened}
