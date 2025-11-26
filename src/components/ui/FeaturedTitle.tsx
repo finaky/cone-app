@@ -8,7 +8,7 @@ export const FeaturedTitle = ({
   end?: string;
 }) => {
   return (
-    <h2 className="leading-10 text-5xl font-black mt-4">
+    <h2 className="leading-12 text-5xl font-black mt-4">
       {whiteText} <span className="text-(--yellow)">{yellowText}</span>
       {end}
     </h2>
