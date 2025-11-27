@@ -38,7 +38,7 @@ export const RecentProjectCard = ({
 
           <Link
             href={"/"}
-            className="w-16 h-16 bg-(--yellow) rounded-full absolute right-10 text-black flex items-center justify-center"
+            className="w-16 h-16 bg-(--primary) rounded-full absolute right-10 text-black flex items-center justify-center"
           >
             <MoveUpRight size={30} />
           </Link>

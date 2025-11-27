@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const ProjectHeader = () => {
   return (
-    <div className="bg-(--yellow) h-[448px] grid grid-cols-2">
+    <div className="bg-(--primary) h-[448px] grid grid-cols-2">
       <header>
         <h2 className="max-w-[450px] font-black text-[#151515] text-5xl mx-auto mt-10">
           OUR RECENT PROJECTS WE DID

@@ -14,7 +14,7 @@ export const ServicesPage = () => {
       <section className="text-center mt-24 ">
         <header className="max-w-[900px] mx-auto ">
           <h2 className="text-5xl font-semibold">
-            <span className="text-(--yellow)">Our</span> Services
+            <span className="text-(--primary)">Our</span> Services
           </h2>
           <p className="text-white/50 mx-2">
             At DigitX, we are committed to providing exceptional digital

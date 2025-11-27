@@ -23,7 +23,7 @@ export const TestimonialFooter = ({
         </button>
 
         <button
-          className="bg-(--yellow) text-black p-3 rounded-full cursor-pointer"
+          className="bg-(--primary) text-black p-3 rounded-full cursor-pointer"
           onClick={nextTestimonial}
         >
           <ChevronRight />

@@ -8,7 +8,7 @@ export const HeaderHeroStat = ({ count, description }: HeaderHeroStat) => {
     <div>
       <p className="font-black text-[44px] leading-10 mt-10 ">
         {count}
-        <span className="text-(--yellow)">+</span>
+        <span className="text-(--primary)">+</span>
       </p>
 
       <p className="font-medium text-[20px]">{description}</p>

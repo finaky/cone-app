@@ -9,7 +9,7 @@ export const HeaderHero = () => {
   return (
     <Section className="mt-[100px] grid lg:grid-cols-[2fr_1fr] grid-cols-1 lg:text-start text-center">
       <h1 className="font-black lg:ml-10 lg:text-[74px] text-[32px] lg:w-[90%] w-full lg:leading-[60px] leading-[30px]">
-        WE CREATE BEAUTIFUL <span className="text-(--yellow)">EFFICIENT</span>{" "}
+        WE CREATE BEAUTIFUL <span className="text-(--primary)">EFFICIENT</span>{" "}
         WORDPRESS WEBSITES.
       </h1>
 
@@ -21,7 +21,7 @@ export const HeaderHero = () => {
 
         <Link
           href={"/"}
-          className="bg-(--yellow) text-(--black) w-[149px] h-14 flex justify-center items-center text-background font-extrabold text-[16px] rounded-lg mt-5"
+          className="bg-(--primary) text-(--background) w-[149px] h-14 flex justify-center items-center text-background font-extrabold text-[16px] rounded-lg mt-5"
         >
           Get Started
         </Link>

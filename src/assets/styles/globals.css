@@ -1,17 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --black: #0d0d0d;
+  --background: #0d0d0d;
   --white: #ffffff;
-  --yellow: #666666;
+  --primary: #666666;
 
-  --color-background: var(--black);
+  --color-background: var(--background);
   --font-cabinet-grotesk: var(--font-cabinet-grotesk);
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 body {
-  background: var(--black);
+  background: var(--background);
   color: var(--white);
 }

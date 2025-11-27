@@ -9,7 +9,7 @@ export const RecentProjectSliderPagination = ({ index }: { index: number }) => {
     "h-1 rounded-full cursor-pointer transition-colors duration-300 w-16";
 
   const activeClassName =
-    activeIndex === index ? "bg-(--yellow)" : "bg-(--yellow)/50";
+    activeIndex === index ? "bg-(--primary)" : "bg-(--primary)/50";
 
   const combinedClassName = `${baseClassName} ${activeClassName}`;
 

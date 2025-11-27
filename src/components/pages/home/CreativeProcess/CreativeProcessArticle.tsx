@@ -11,7 +11,7 @@ export const CreativeProcessArticle = ({
 }: ICreativeProcessArticle) => {
   return (
     <article className="flex gap-5 mt-5 text-start">
-      <div className="bg-(--yellow) w-16 h-16 rounded-full text-black flex items-center justify-center">
+      <div className="bg-(--primary) w-16 h-16 rounded-full text-black flex items-center justify-center">
         <Snowflake size={24} />
       </div>
       <div className="max-xl:w-[80%]">

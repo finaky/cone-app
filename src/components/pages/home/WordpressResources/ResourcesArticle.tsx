@@ -24,7 +24,7 @@ export const ResourceArticle = ({
 
         <Link
           className="w-16 h-[30px] flex items-center justify-center rounded-full"
-          style={{ backgroundColor: "var(--yellow)" }}
+          style={{ backgroundColor: "var(--primary)" }}
           href="/"
         >
           View
