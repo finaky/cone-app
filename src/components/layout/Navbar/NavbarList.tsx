@@ -14,7 +14,7 @@ export const NavbarList = ({ className }: NavbarListProps) => {
       {navBarItems.map((item, index) => (
         <li key={index}>
           <Link
-            className={pathname === item.href ? "text-(--primary)" : ""}
+            className={pathname === item.href ? "text-(--yellow)" : ""}
             href={item.href}
           >
             {item.name}
