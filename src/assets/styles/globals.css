@@ -3,7 +3,8 @@
 :root {
   --background: #0d0d0d;
   --white: #ffffff;
-  --primary: #666666;
+  --primary: #ffdf00;
+  --secondary: #3333;
 
   --color-background: var(--background);
   --font-cabinet-grotesk: var(--font-cabinet-grotesk);

@@ -9,7 +9,7 @@ import { FooterSocialLinks } from "./FooterSocialLinks";
 
 export const Footer = () => {
   return (
-    <footer className="w-full xl:py-5 py-12 bg-[#1B1B1B] mt-12 relative flex xl:justify-center max-xl:flex-col">
+    <footer className="w-full xl:py-5 py-12 bg-[#141414] mt-12 relative flex xl:justify-center max-xl:flex-col">
       <div className="flex items-center xl:justify-end max-xl:flex-col justify-center max-xl:mt-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
